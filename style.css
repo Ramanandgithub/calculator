@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: sans-serif;
+    outline: none;
+}
+body{
+    background: url('/background/ram.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+body h3{
+    text-align: center;
+    color: dodgerblue;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+body h3 span{
+    color: blue;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    /* background-color: #ecf0f3; */
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffffff,
+                 5px 5px 12px rgba(0, 0, 0, .16);
+    display: grid;             
+    grid-template-columns: repeat(4,70px);
+    
+
+
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: #ffffffff;
+
+    box-shadow: inset -5px -5px 12px #ffffffff,
+                 inset 5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    border-radius: 30px;
+    color: rgba(70, 70, 70);
+
+    font-size: 40px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+
+
+    box-shadow: -5px -5px 12px #ffffffff,
+                  5px 5px 12px rgba(0, 0, 0, .16);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 18px;
+}
+.calculate{
+    width: 115px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+
+
+    box-shadow: -5px -5px 12px #ffffffff,
+                  5px 5px 12px rgba(0, 0, 0, .16);
+}
